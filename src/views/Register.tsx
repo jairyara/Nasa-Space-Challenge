@@ -29,8 +29,6 @@ export const Register: React.FC = () => {
     const navigate = useNavigate();
     const setUser = useUserStore(state => state.setUser);
 
-
-
     const validateForm = () => {
         if (!nick) {
             setError(intl.formatMessage({id: 'nickRequired'}));

@@ -1,0 +1,212 @@
+[
+  {
+    "year": "2000",
+    "total": "6807",
+    "total_solid_fuel": "2456",
+    "total_liquid_fuel": "2819",
+    "total_gas_fuel": "1298",
+    "total_cement": "188",
+    "total_gas_flaring": "46",
+    "total_per_capita": "1,11447981742364"
+  },
+  {
+    "year": "2001",
+    "total": "6859",
+    "total_solid_fuel": "2477",
+    "total_liquid_fuel": "2839",
+    "total_gas_fuel": "1298",
+    "total_cement": "197",
+    "total_gas_flaring": "48",
+    "total_per_capita": "1,10805851658277"
+  },
+  {
+    "year": "2002",
+    "total": "7029",
+    "total_solid_fuel": "2592",
+    "total_liquid_fuel": "2841",
+    "total_gas_fuel": "1337",
+    "total_cement": "208",
+    "total_gas_flaring": "51",
+    "total_per_capita": "1,1207530445555"
+  },
+  {
+    "year": "2003",
+    "total": "7423",
+    "total_solid_fuel": "2810",
+    "total_liquid_fuel": "2951",
+    "total_gas_fuel": "1388",
+    "total_cement": "223",
+    "total_gas_flaring": "50",
+    "total_per_capita": "1,16839905302194"
+  },
+  {
+    "year": "2004",
+    "total": "7699",
+    "total_solid_fuel": "2909",
+    "total_liquid_fuel": "3056",
+    "total_gas_fuel": "1437",
+    "total_cement": "241",
+    "total_gas_flaring": "56",
+    "total_per_capita": "1,1965624971783"
+  },
+  {
+    "year": "2005",
+    "total": "8004",
+    "total_solid_fuel": "3116",
+    "total_liquid_fuel": "3082",
+    "total_gas_fuel": "1486",
+    "total_cement": "259",
+    "total_gas_flaring": "61",
+    "total_per_capita": "1,22819388601621"
+  },
+  {
+    "year": "2006",
+    "total": "8247",
+    "total_solid_fuel": "3307",
+    "total_liquid_fuel": "3084",
+    "total_gas_fuel": "1515",
+    "total_cement": "280",
+    "total_gas_flaring": "62",
+    "total_per_capita": "1,2497121559393"
+  },
+  {
+    "year": "2007",
+    "total": "8478",
+    "total_solid_fuel": "3454",
+    "total_liquid_fuel": "3095",
+    "total_gas_fuel": "1567",
+    "total_cement": "298",
+    "total_gas_flaring": "64",
+    "total_per_capita": "1,26858967866699"
+  },
+  {
+    "year": "2008",
+    "total": "8676",
+    "total_solid_fuel": "3597",
+    "total_liquid_fuel": "3094",
+    "total_gas_fuel": "1615",
+    "total_cement": "300",
+    "total_gas_flaring": "69",
+    "total_per_capita": "1,28177361944036"
+  },
+  {
+    "year": "2009",
+    "total": "8542",
+    "total_solid_fuel": "3543",
+    "total_liquid_fuel": "3041",
+    "total_gas_fuel": "1578",
+    "total_cement": "310",
+    "total_gas_flaring": "70",
+    "total_per_capita": "1,24618367260242"
+  },
+  {
+    "year": "2010",
+    "total": "9008",
+    "total_solid_fuel": "3807",
+    "total_liquid_fuel": "3107",
+    "total_gas_fuel": "1704",
+    "total_cement": "321",
+    "total_gas_flaring": "70",
+    "total_per_capita": "1,29766541068243"
+  },
+  {
+    "year": "2011",
+    "total": "9292",
+    "total_solid_fuel": "3985",
+    "total_liquid_fuel": "3144",
+    "total_gas_fuel": "1743",
+    "total_cement": "356",
+    "total_gas_flaring": "64",
+    "total_per_capita": "1,32191768866169"
+  },
+  {
+    "year": "2012",
+    "total": "9483",
+    "total_solid_fuel": "4056",
+    "total_liquid_fuel": "3205",
+    "total_gas_fuel": "1783",
+    "total_cement": "373",
+    "total_gas_flaring": "66",
+    "total_per_capita": "1,33247456444849"
+  },
+  {
+    "year": "2013",
+    "total": "9569",
+    "total_solid_fuel": "4082",
+    "total_liquid_fuel": "3226",
+    "total_gas_fuel": "1814",
+    "total_cement": "381",
+    "total_gas_flaring": "65",
+    "total_per_capita": "1,3277948724688"
+  },
+  {
+    "year": "2014",
+    "total": "9629",
+    "total_solid_fuel": "4066",
+    "total_liquid_fuel": "3267",
+    "total_gas_fuel": "1843",
+    "total_cement": "384",
+    "total_gas_flaring": "69",
+    "total_per_capita": "1,3199987710728"
+  },
+  {
+    "year": "2015",
+    "total": "9646",
+    "total_solid_fuel": "3987",
+    "total_liquid_fuel": "3343",
+    "total_gas_fuel": "1868",
+    "total_cement": "380",
+    "total_gas_flaring": "68",
+    "total_per_capita": "1,30649791772775"
+  },
+  {
+    "year": "2016",
+    "total": "9723",
+    "total_solid_fuel": "3919",
+    "total_liquid_fuel": "3410",
+    "total_gas_fuel": "1933",
+    "total_cement": "387",
+    "total_gas_flaring": "74",
+    "total_per_capita": "1,30161088771949"
+  },
+  {
+    "year": "2017",
+    "total": "9853",
+    "total_solid_fuel": "3965",
+    "total_liquid_fuel": "3436",
+    "total_gas_fuel": "1987",
+    "total_cement": "386",
+    "total_gas_flaring": "80",
+    "total_per_capita": "1,30380214901899"
+  },
+  {
+    "year": "2018",
+    "total": "10105",
+    "total_solid_fuel": "4082",
+    "total_liquid_fuel": "3465",
+    "total_gas_fuel": "2071",
+    "total_cement": "408",
+    "total_gas_flaring": "79",
+    "total_per_capita": "1,32212927497041"
+  },
+  {
+    "year": "2019",
+    "total": "10183",
+    "total_solid_fuel": "4075",
+    "total_liquid_fuel": "3462",
+    "total_gas_fuel": "2148",
+    "total_cement": "413",
+    "total_gas_flaring": "86",
+    "total_per_capita": "1,31825059071089"
+  },
+  {
+    "year": "2020",
+    "total": "9730",
+    "total_solid_fuel": "3950",
+    "total_liquid_fuel": "3156",
+    "total_gas_fuel": "2123",
+    "total_cement": "425",
+    "total_gas_flaring": "77",
+    "total_per_capita": "1,24664254214971"
+  }
+]

@@ -52,6 +52,19 @@ const messages: Record<string, Messages> = {
         errorToGetUsers: 'Error to get users',
         points: 'Points',
         startChallenge: 'Start the challenge',
+        globalEmissions21Century: 'Global Emissions CO2 in the 21st Century',
+        dataSources: 'Data Sources',
+        title1: 'The Invisible Footprint: Our CO2 Story in the 21st Century',
+        story1: 'Imagine our planet is a closed room, and every time we turn on a car, a light, or manufacture a product, we release an invisible gas: CO2. At the beginning of the 21st century, this room was already quite full, but in the last two decades, we have been filling it at a dizzying rate. It\'s as if we found an accelerator and couldn\'t let go. Entire cities have sprung up out of nowhere, millions have risen out of poverty, and our thirst for energy seems endless. But every achievement, every comfort, every advance, has come with a hidden cost in the form of this invisible gas. Now, our planetary room is so full that we are starting to feel the effects: the air is getting warmer, weather patterns are becoming erratic, and we wonder if we have gone too far. The good news is that we have the tools to change our story. Every decision we make, from how we move to how we consume, is an opportunity to start emptying that room. The question is: are we ready to take control of our CO2 story?',
+        challenge1: 'Challenge 1',
+        save: 'Save',
+        skipChallenge: 'Skip challenge',
+        continueAdventure: 'Continue your adventure',
+        ch1q1: 'According to the graph, in which year was the most emissions made by solid fuels?',
+        ch1q2: 'According to the graph, in which year was the most emissions made by liquid fuels?',
+        ch1q3: 'According to the graph, in which year was the most emissions made by cement?',
+        challenge2: 'Challenge 2',
+        challenge3: 'Challenge 3',
     },
     es: {
         welcome: 'Bienvenido a la Historia',
@@ -98,6 +111,21 @@ const messages: Record<string, Messages> = {
         errorToGetUsers: 'Error al obtener usuarios',
         points: 'Puntos',
         startChallenge: 'Comienza el desafío',
+        globalEmissions21Century: 'Emisiones Globales CO2 en el Siglo XXI',
+        dataSources: 'Fuentes de datos',
+        title1: 'La Huella Invisible: Nuestra Historia de CO2 en el Siglo XXI',
+        story1: 'Imagina que nuestro planeta es una habitación cerrada, y cada vez que encendemos un auto, prendemos una luz o fabricamos un producto, estamos soltando un gas invisible: el CO2. Al inicio del siglo XXI, esta habitación ya estaba bastante llena, pero en las últimas dos décadas, hemos estado llenándola a un ritmo vertiginoso. Es como si hubiéramos encontrado un acelerador y no pudiéramos soltarlo. Ciudades enteras han surgido de la nada, millones han salido de la pobreza, y nuestra sed de energía parece no tener fin. Pero cada logro, cada comodidad, cada avance, ha venido con un costo oculto en forma de este gas invisible. Ahora, nuestra habitación planetaria está tan llena que comenzamos a sentir los efectos: el aire se vuelve más cálido, los patrones climáticos se vuelven erráticos, y nos preguntamos si hemos ido demasiado lejos. La buena noticia es que tenemos las herramientas para cambiar nuestra historia. Cada decisión que tomamos, desde cómo nos movemos hasta cómo consumimos, es una oportunidad para empezar a vaciar esa habitación. La pregunta es: ¿estamos listos para tomar el control de nuestra historia de CO2?',
+        challenge1: 'Desafío 1',
+        save: 'Guardar',
+        skipChallenge: 'Saltar desafío',
+        continueAdventure: 'Continúa tu aventura',
+        ch1q1: '¿Según la gráfica, en que año se hizo más emisiones por combustibles sólidos?',
+        ch1q2: '¿Según la gráfica, en que año se hizo más emisiones por combustibles líquidos?',
+        ch1q3: '¿Según la gráfica, en que año se hizo más emisiones por cemento?',
+        challenge2: 'Desafío 2',
+        challenge3: 'Desafío 3',
+
+
     }
 }
 

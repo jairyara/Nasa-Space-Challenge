@@ -14,23 +14,23 @@ interface Question {
 
 const questions: Question[] = [
     {
-        question: 'ch1q1',
-        answer: '2015',
-        options: ['2020', '2010', '2017', '2015']
+        question: '¿Año con más emisiones de C02?',
+        answer: '2019',
+        options: ['2007', '2012', '2017', '2019']
     },
     {
-        question: 'ch1q2',
-        answer: '2015',
-        options: ['2009', '2000 ', '2010', '2015']
+        question: '¿Qué años han estado debajo de las 7000 toneladas de emisión?',
+        answer: '2000 y 2001',
+        options: ['2009 y 2020', '2000 y 2001', '2010 y 2012', '2020']
     },
     {
-        question: 'ch1q3',
-        answer: '2020',
-        options: ['2012', '2010', '2005', '2020']
+        question: '¿La pandemia detuvo el crecimiento de emisiones?',
+        answer: 'Disminuyó las emisiones',
+        options: ['Disminuyó las emisiones', 'Aumentó', 'Se mantuvo igual', 'No sabe']
     },
 ]
 
-export const Challenge1: React.FC = () => {
+export const Challenge2: React.FC = () => {
 
     const [selectedOptions, setSelectedOptions] = useState<{ [key: number]: string }>({});
     const [isSubmitted, setIsSubmitted] = useState(false);
@@ -106,10 +106,6 @@ export const Challenge1: React.FC = () => {
                         <h1 className='text-4xl text-center font-bold'>
                             {intl.formatMessage({id: 'carbonFootprint'})}
                         </h1>
-                        <iframe className='mx-auto' width="600" height="450"
-                                src="https://lookerstudio.google.com/embed/reporting/9c853882-9f2f-4a99-aac7-7ad9d14a135a/page/1AOEE"
-                                frameBorder="0"  allowFullScreen
-                                sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
                         <p className='text-sm text-gray-400'>
                             {intl.formatMessage({id: 'globalEmissions21Century'})}
                         </p>
@@ -130,10 +126,10 @@ export const Challenge1: React.FC = () => {
             <section
                 className='h-screen overflow-y-scroll p-10 w-full bg-white-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 '>
                 <form onSubmit={handleSubmit}>
-                    <h2 className='text-white text-center font-bold text-xl'>{intl.formatMessage({id: 'challenge1'})}</h2>
+                    <h2 className='text-white text-center font-bold text-xl'>{intl.formatMessage({id: 'challenge2'})}</h2>
                     {questions.map((q, questionIndex) => (
                         <div key={questionIndex}>
-                            <h3 className='text-white mb-4 mt-4'>{intl.formatMessage({id: q.question})}</h3>
+                            <h3 className='text-white mb-4 mt-4'>{q.question}</h3>
                             {q.options.map((option) => (
                                 <div key={option}>
                                     <label className='text-white'>
@@ -155,24 +151,19 @@ export const Challenge1: React.FC = () => {
                     <button className='px-4 py-2 h-10 bg-shamrock text-white rounded mt-4'
                             type="submit">{intl.formatMessage({id: 'save'})}</button>
 
+                    {isSubmitted && (
+                        <div>
+                            <p className='text-white'>Has respondido
+                                correctamente {getScore()} de {questions.length} preguntas.</p>
+                            <button className='bg-shamrock text-white px-4 ml-4 py-2 rounded'>
+                                {intl.formatMessage({id: 'continueAdventure'})}
+                            </button>
+                        </div>
+                    )}
                 </form>
-                {isSubmitted && (
-                    <div>
-                        <p className='text-white'>Has respondido
-                            correctamente {getScore()} de {questions.length} preguntas.</p>
-                        <button onClick={skipChallenge} className='bg-shamrock text-white px-4 mt-4 py-2 rounded'>
-                            {intl.formatMessage({id: 'continueAdventure'})}
-                        </button>
-                    </div>
-                )}
-                {
-                    !isSubmitted && (
-                        <button onClick={skipChallenge} className='bg-cinnabar text-white px-4 mt-4 py-2 rounded'>
-                            {intl.formatMessage({id: 'skipChallenge'})}
-                        </button>
-                    )
-                }
-
+                <button onClick={skipChallenge} className='bg-cinnabar text-white px-4 mt-4 py-2 rounded'>
+                    {intl.formatMessage({id: 'skipChallenge'})}
+                </button>
             </section>
         </Layout>
     )
