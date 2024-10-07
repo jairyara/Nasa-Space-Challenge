@@ -158,8 +158,7 @@ export const Challenge1: React.FC = () => {
                 </form>
                 {isSubmitted && (
                     <div>
-                        <p className='text-white'>Has respondido
-                            correctamente {getScore()} de {questions.length} preguntas.</p>
+                        <p className='text-white'>{intl.formatMessage({id: 'hasCorrectlyAnswered'})} {getScore()} {intl.formatMessage({id: 'from'})} {questions.length} {intl.formatMessage({id: 'questions'})}.</p>
                         <button onClick={skipChallenge} className='bg-shamrock text-white px-4 mt-4 py-2 rounded'>
                             {intl.formatMessage({id: 'continueAdventure'})}
                         </button>

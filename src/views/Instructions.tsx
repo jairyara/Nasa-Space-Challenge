@@ -22,7 +22,7 @@ export const Instructions = () => {
                 </figcaption>
             </figure>
             <article
-                className='col-start-1 row-start-1 relative w-full h-screen flex flex-col gap-4  items-center bg-pickled-blue/40'>
+                className='col-start-1 row-start-1 relative w-full h-screen flex flex-col gap-4  items-center bg-pickled-blue/60'>
                 <Header/>
                 <section className='mt-4 w-4/5 mx-auto'>
                     <h1 className='text-4xl text-white font-bold text-center'>

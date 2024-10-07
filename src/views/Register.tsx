@@ -67,8 +67,8 @@ export const Register: React.FC = () => {
                     points: userPoints?.points || 0 // Si no tiene puntos, asigna 0
                 };
             });
-
-            setUsers(usersWithPoints) // Devuelve la lista combinada
+            const sortedUsersWithPoints = usersWithPoints.sort((a: any, b: any) => b.points - a.points);
+            setUsers(sortedUsersWithPoints) // Devuelve la lista combinada
         } catch (err) {
             console.error('Error fetching users with points:', err);
             return [];
