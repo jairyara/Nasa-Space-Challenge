@@ -20,7 +20,7 @@ export const Layout: React.FC<LayoutProps> = ({children}) => {
                 </figcaption>
             </figure>
             <section
-                className='col-start-1 row-start-1 relative grid grid-cols-2
+                className='overflow-y-auto col-start-1 row-start-1 relative grid grid-cols-1 xl:grid-cols-2
                 w-full h-screen bg-pickled-blue/30'>
                 {children}
             </section>

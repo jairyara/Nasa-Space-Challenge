@@ -99,10 +99,10 @@ export const Challenge1: React.FC = () => {
 
     return (
         <Layout>
-            <section className='bg-curious-blue/5 h-screen w-full flex items-center flex-col'>
+            <section className='bg-curious-blue/5 py-3 md:py-0 xl:h-screen xl:overflow-y-auto w-full flex items-center flex-col'>
                 <Header/>
-                <section className='p-8'>
-                    <article className='bg-white p-4 w-full rounded'>
+                <section className='w-full p-4 xl:p-8 overflow-x-auto'>
+                    <article className='bg-white p-4  rounded'>
                         <h1 className='text-4xl text-center font-bold'>
                             {intl.formatMessage({id: 'carbonFootprint'})}
                         </h1>
@@ -128,7 +128,7 @@ export const Challenge1: React.FC = () => {
                 </section>
             </section>
             <section
-                className='h-screen overflow-y-scroll p-10 w-full bg-white-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 '>
+                className='xl:h-screen xl:overflow-y-auto p-10 w-full bg-white-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 '>
                 <form onSubmit={handleSubmit}>
                     <h2 className='text-white text-center font-bold text-xl'>{intl.formatMessage({id: 'challenge1'})}</h2>
                     {questions.map((q, questionIndex) => (

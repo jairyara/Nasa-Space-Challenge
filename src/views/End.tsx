@@ -49,7 +49,7 @@ export const End:React.FC = () => {
 
     return (
         <Layout>
-            <section className='bg-curious-blue/5 h-screen w-full flex items-center flex-col'>
+            <section className='bg-curious-blue/5 xl:h-screen xl:overflow-y-auto w-full flex items-center flex-col'>
                 <Header/>
 
                 <section className='p-8 bg-pickled-blue/50 h-full flex flex-col justify-center gap-4'>
@@ -71,7 +71,7 @@ export const End:React.FC = () => {
                 </section>
             </section>
             <section
-                className='h-screen overflow-y-scroll p-10 w-full bg-white-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 '>
+                className='xl:h-screen xl:overflow-y-auto p-4 md:p-10 w-full bg-white-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 '>
                 <h1 className='text-white text-center font-bold my-4 text-3xl'>
                     {intl.formatMessage({id: 'ranking'})}
                 </h1>

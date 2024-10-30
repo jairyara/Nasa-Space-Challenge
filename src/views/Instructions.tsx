@@ -22,7 +22,7 @@ export const Instructions = () => {
                 </figcaption>
             </figure>
             <article
-                className='col-start-1 row-start-1 relative w-full h-screen flex flex-col gap-4  items-center bg-pickled-blue/60'>
+                className='col-start-1 row-start-1 relative w-full h-screen overflow-y-auto py-4 md:py-0 flex flex-col gap-4  items-center bg-pickled-blue/60'>
                 <Header/>
                 <section className='mt-4 w-4/5 mx-auto'>
                     <h1 className='text-4xl text-white font-bold text-center'>
@@ -34,7 +34,7 @@ export const Instructions = () => {
                     <p className='text-white text-center mt-4'>
                         {intl.formatMessage({id: 'textIntroduction'})}
                     </p>
-                    <section className='flex mt-4 justify-around'>
+                    <section className='flex gap-3 md:gap-0 mt-4 justify-around'>
                         <article
                             className='w-72 p-4 bg-white bg-clip-padding backdrop-filter rounded backdrop-blur-sm bg-opacity-10'>
                             <h3 className='text-white text-xl font-semibold mt-4'>

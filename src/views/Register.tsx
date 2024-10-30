@@ -139,9 +139,9 @@ export const Register: React.FC = () => {
                 </figcaption>
             </figure>
             <section
-                className='col-start-1 row-start-1 relative grid grid-cols-2
+                className='col-start-1 overflow-y-auto row-start-1 relative grid grid-cols-1 md:grid-cols-2
                 w-full h-screen '>
-                <section className='bg-curious-blue/5 h-full w-full p-16 flex justify-center items-center flex-col'>
+                <section className='bg-curious-blue/5 h-full w-full p-4 lg:p-16 flex justify-center items-center flex-col'>
                     <SwitchLang/>
                     <form className='mt-8 flex flex-col gap-4'>
 
@@ -224,7 +224,7 @@ export const Register: React.FC = () => {
                     </form>
                 </section>
                 <section
-                    className='h-screen overflow-y-scroll p-10 w-full bg-white-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 '>
+                    className='h-screen md:overflow-y-auto p-4 lg:p-10 w-full bg-white-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 '>
                     <h2 className='text-white font-bold text-center text-4xl mb-10'>
                         {intl.formatMessage({id: 'scoreBoard'})}
                     </h2>
